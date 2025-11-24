@@ -15,8 +15,9 @@
 ```
 📁 YYYY
    └── 📁 MM_MonthName
-         ├── problemName_date.py
+         ├──YYYY-MM-DD_problemName_date.py
          ├── otherProblem_date.py
+         └── YYYY-MM-DD_notes.md
          └── ...
 ```
 
@@ -24,7 +25,7 @@
 
 * 年份：4 位数字（如 `2025`）
 * 文件夹：`11_November`（数字 + 英文月份）
-* 文件名：`recipe_scaler.py`
+* 文件名：`YYYY-MM-DD_recipe_scaler.py`
 * 一个文件对应一个每日练习题目
 
 ---
@@ -57,6 +58,6 @@ Examples:
 ### ✔️ 2025-11-23
 
 * 增加 README
-
+* 修改 README细节
 ```
 ```
