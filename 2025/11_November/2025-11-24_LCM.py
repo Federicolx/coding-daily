@@ -18,7 +18,6 @@ Waiting:3. lcm(10, 100) should return 100.
 Waiting:4. lcm(13, 17) should return 221.
 Waiting:5. lcm(45, 70) should return 630.
 '''
-import math
 def gcd(a,b):#辗转相除法求最小公约数
     while b != 0:
         a,b = b,a % b
