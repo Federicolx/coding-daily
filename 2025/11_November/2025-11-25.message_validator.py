@@ -1,5 +1,5 @@
 '''
-Title:Message Validator 
+Title:Message Validator
 Date:2025-11-25
 Source: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-11-24
 Description:
