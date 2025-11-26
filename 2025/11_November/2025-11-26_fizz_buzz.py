@@ -1,6 +1,6 @@
 '''
 Title:FizzBuzz
-Date:2025-11-25
+Date:2025-11-26
 Source: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-11-25
 Description:
 Given an integer (n), return an array of integers from 1 to n (inclusive), replacing numbers that are multiple of:
