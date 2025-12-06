@@ -2,6 +2,7 @@
 Title:Permutation Count
 Date:2025-12-4
 Source: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-04
+Description:
 Given a string, return the number of distinct permutations that can be formed from its characters.
 
 A permutation is any reordering of the characters in the string.
