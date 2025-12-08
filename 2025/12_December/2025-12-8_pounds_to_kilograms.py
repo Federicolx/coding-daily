@@ -1,7 +1,7 @@
 '''
 Title:Pounds to Kilograms
-Date:2025-12-7
-Source: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-07
+Date:2025-12-8
+Source: https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-08
 Description:
 Given a weight in pounds as a number, return the string "(lbs) pounds equals (kgs) kilograms.".
 
