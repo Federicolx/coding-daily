@@ -22,21 +22,25 @@ Waiting:4. update_inventory([[0, "Bowling Ball"], [0, "Dirty Socks"], [0, "Hair 
 should return [[1, "Bowling Ball"], [0, "Dirty Socks"], [1, "Hair Pin"], [0, "Microphone"], [1, "Half-Eaten Apple"], [1, "Toothpaste"]].
 '''
 def update_inventory(inventory, shipment):
-    #建立字典仓库
+    #1.将inventory转换为stock
     stock = {item:qty for qty,item in inventory}
 
-    print(stock)
-    # 2. 处理 shipment
-    for add_qty,item in shipment:
+    #将shipment物品转到stock
+    new_items = []
+    for add_aty,item in shipment:
         if item in stock:
-            stock[item] +=add_qty
+            stock[item] += add_aty
         else:
-            stock[item] = add_qty
-
+            stock[item] = add_aty  
+            new_items.append(item)
+    #print(new_items)
+    
     result = []
-    for 
+    for qty,item in inventory:
+        result.append([stock[item],item])#添加原有物品到结果
 
-    return stock
+    for item in new_items:
+        result.append([stock[item],item])#添加新物品到结果
+    return result
 
 update_inventory([[0, "Bowling Ball"], [0, "Dirty Socks"], [0, "Hair Pin"], [0, "Microphone"]], [[1, "Hair Pin"], [1, "Half-Eaten Apple"], [1, "Bowling Ball"], [1, "Toothpaste"]])
-update_inventory([], [[10, "apples"], [30, "bananas"], [20, "oranges"]])
